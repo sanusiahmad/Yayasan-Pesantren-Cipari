@@ -347,11 +347,11 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 80%;
+  width: 100%;
   margin: 30px auto;
 }
 .tamu-item {
-  width: 30%;
+  width: 40%;
   background-color: var(--white);
   padding: 5px;
   margin: 20px;
@@ -926,8 +926,11 @@ nav ul li a:hover {
   .tamu-flex {
     flex-direction: column;
   }
+  .tamu-flex {
+    width: 90%;
+  }
   .tamu-item {
-    width: auto;
+    width: 90%;
   }
   .pendaftaran-flex {
     width: 100%;

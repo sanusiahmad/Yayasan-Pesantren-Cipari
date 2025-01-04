@@ -205,7 +205,7 @@ nav ul li a:hover {
 
 /* Hero image */
 #hero-container {
-  background-image: url(../image/heroImage.png);
+  background-image: url(../image/DSCF738.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -242,7 +242,7 @@ nav ul li a:hover {
 }
 
 #hero-container .text img {
-  width: 200px;
+  width: 150px;
   padding: 1px;
 }
 

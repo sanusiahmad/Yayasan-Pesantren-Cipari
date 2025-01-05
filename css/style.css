@@ -205,7 +205,7 @@ nav ul li a:hover {
 
 /* Hero image */
 #hero-container {
-  background-image: url(../image/DSCF738.jpg);
+  background-image: url(../image/home.jpeg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -883,12 +883,21 @@ nav ul li a:hover {
   .about-text {
     padding: 10px 30px;
   }
-  .visi-misi-tenaga-item {
-    width: 40%;
+  /* visi-misi */
+  .visi-misi-flex {
+    flex-direction: column;
   }
-  /* program */
+  .visi-misi-tenaga-item {
+    width: auto;
+  }
+  .tamu-flex {
+    flex-direction: column;
+  }
+  .tamu-flex {
+    width: 90%;
+  }
   .tamu-item {
-    width: 40%;
+    width: 90%;
   }
   /* program */
   .alumni-item-luar,
@@ -931,6 +940,13 @@ nav ul li a:hover {
   }
   .tamu-item {
     width: 90%;
+  }
+  .alumni-flex {
+    width: 100%;
+  }
+  /* pendaftaran */
+  .alumni-item {
+    width: 100%;
   }
   .pendaftaran-flex {
     width: 100%;

@@ -955,4 +955,7 @@ nav ul li a:hover {
   .pendaftaran-item {
     width: 100%;
   }
+  .footer {
+    font-size: 12px;
+  }
 }

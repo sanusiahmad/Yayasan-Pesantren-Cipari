@@ -921,6 +921,18 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 500px) {
+  /* about */
+  .about-flex {
+    flex-direction: column;
+  }
+  .about-image,
+  .about-text {
+    width: auto;
+  }
+  .about-text {
+    padding: 10px 30px;
+  }
+
   /* visi-misi */
   .visi-misi-flex {
     flex-direction: column;

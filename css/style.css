@@ -872,16 +872,13 @@ nav ul li a:hover {
   .about-flex {
     flex-direction: column;
   }
-  .about-items1 {
+  .about-items1 h2 {
     text-align: center;
   }
-  .about-image,
-  .about-text {
+  .about-items1 {
     width: auto;
   }
-  .about-text {
-    padding: 10px 30px;
-  }
+  
   /* visi-misi */
   .visi-misi-flex {
     flex-direction: column;
@@ -934,9 +931,6 @@ nav ul li a:hover {
   .about-image,
   .about-text {
     width: auto;
-  }
-  .about-text {
-    padding: 10px 30px;
   }
 
   /* visi-misi */

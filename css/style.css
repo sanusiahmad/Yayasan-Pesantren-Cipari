@@ -920,7 +920,7 @@ nav ul li a:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
   /* visi-misi */
   .visi-misi-flex {
     flex-direction: column;

@@ -872,6 +872,9 @@ nav ul li a:hover {
   .about-flex {
     flex-direction: column;
   }
+  .about-items1 {
+    text-align: center;
+  }
   .about-image,
   .about-text {
     width: auto;
@@ -924,6 +927,9 @@ nav ul li a:hover {
   /* about */
   .about-flex {
     flex-direction: column;
+  }
+  .about-items1 {
+    text-align: center;
   }
   .about-image,
   .about-text {

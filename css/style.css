@@ -875,10 +875,14 @@ nav ul li a:hover {
   .about-items1 h2 {
     text-align: center;
   }
+  .about-items1,
+  .about-text {
+    padding: 5px 10px;
+  }
   .about-items1 {
     width: auto;
   }
-  
+
   /* visi-misi */
   .visi-misi-flex {
     flex-direction: column;

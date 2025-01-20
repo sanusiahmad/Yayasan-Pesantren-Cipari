@@ -4,7 +4,7 @@
   --cyan: #e0ffff;
   --brown: #3e2723;
   --green: #429203;
-  --green-muda: #64bc27;
+  --green-muda: #3b59a5;
   --bluedark: #15273c;
   --grey: #c9d1de;
   --white: #f9f9f9;
@@ -40,7 +40,7 @@ html {
 }
 
 #nav-container {
-  background-color: var(--green);
+  background-color: var(--green-muda);
   position: sticky;
   top: 0px;
   z-index: 1000; /* Pastikan navigasi berada di atas elemen lain */
@@ -154,7 +154,7 @@ nav ul li a:hover {
   bottom: 70px; /* Jarak dari bawah */
   right: 20px; /* Jarak dari kanan, disesuaikan agar di samping WhatsApp */
   z-index: 1000; /* Pastikan di atas elemen lain */
-  background-color: var(--green); /* Warna biru untuk latar belakang */
+  background-color: var(--bluedark); /* Warna biru untuk latar belakang */
   color: #ffffff; /* Warna teks */
   border-radius: 15px; /* Sudut melengkung */
   padding: 10px 20px; /* Spasi dalam elemen */
@@ -314,7 +314,7 @@ nav ul li a:hover {
   padding: 5px;
   margin: 20px;
   border-radius: 10px;
-  color: var(--bluedark);
+  color: var(--white);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -335,7 +335,7 @@ nav ul li a:hover {
   background-color: var(--green-muda);
 }
 #tamu h1 {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
   margin-top: 40px;
 }
@@ -370,12 +370,12 @@ nav ul li a:hover {
 
 /* Alumni */
 #alumni h1 {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
   margin-top: 30px;
 }
 #alumni p {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
 }
 .alumni-item-dalam .list {
@@ -395,7 +395,7 @@ nav ul li a:hover {
   padding: 5px;
   margin: 20px;
   border-radius: 10px;
-  color: var(--bluedark);
+  color: var(--white);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -408,7 +408,7 @@ nav ul li a:hover {
   padding: 5px;
   margin: 20px;
   border-radius: 10px;
-  color: var(--bluedark);
+  color: var(--white);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -422,7 +422,7 @@ nav ul li a:hover {
   text-align: center;
 }
 #alumni p.foter {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
   width: 75%;
   justify-content: center;
@@ -441,7 +441,7 @@ nav ul li a:hover {
   background-color: var(--green-muda);
 }
 #pendaftaran h1 {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
   margin-top: 30px;
 }
@@ -475,6 +475,7 @@ nav ul li a:hover {
 
 .button-item {
   padding: 10px;
+  color: var(--white);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -493,7 +494,8 @@ nav ul li a:hover {
 }
 
 .button-brosur:hover {
-  background-color: #45a049;
+  background-color: var(--bluedark);
+  color: var(--white);
 }
 
 /* Galeri */
@@ -502,7 +504,7 @@ nav ul li a:hover {
 }
 #galeri h1 {
   text-align: center;
-  color: var(--bluedark);
+  color: var(--white);
   margin-top: 40px;
 }
 .galeri-container {
@@ -846,7 +848,7 @@ nav ul li a:hover {
   nav ul li a {
     display: block;
     color: var(--white);
-    background-color: rgba(66, 146, 3, 1);
+    background-color: var(--green-muda);
     padding: 0 30px;
     height: auto;
   }

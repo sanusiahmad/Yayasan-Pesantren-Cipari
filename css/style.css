@@ -31,6 +31,7 @@ html {
 #about,
 #visi-misi,
 #program,
+#program,
 #tamu,
 #alumni,
 #pendaftaran,
@@ -250,21 +251,23 @@ nav ul li a:hover {
 #about {
   background-color: var(--green-muda);
 }
-#about h1 {
+/* #about h1 {
   color: var(--bluedark);
   text-align: center;
   margin-top: 15px;
-}
+} */
 .about-flex {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin: 30px auto;
 }
-
 .about-items1 {
   width: 100%;
-  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
   padding: 1px 70px 40px 70px;
   background-color: var(--white);
   border-radius: 10px;
@@ -275,7 +278,7 @@ nav ul li a:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
-.about-items h2 {
+.about-items1 h2 {
   text-align: center;
   color: var(--bluedark);
   margin-top: 40px;
@@ -284,20 +287,13 @@ nav ul li a:hover {
   text-align: justify;
   /* text-indent: 50px; */
 }
-.about-items-text h4 {
-  text-align: center;
-  color: var(--bluedark);
-  margin-top: 25px;
-}
-.about-items-text p {
-  text-align: justify;
-  color: var(--bluedark);
-  margin-top: 5px;
-}
 
 /* Visi-Misi */
+#visi-misi {
+  background-color: var(--green-muda);
+}
 #visi-misi h1 {
-  color: var(--bluedark);
+  color: var(--white);
   text-align: center;
   margin-top: 40px;
 }
@@ -308,7 +304,48 @@ nav ul li a:hover {
   width: 80%;
   margin: 30px auto;
 }
-.visi-misi-tenaga-item {
+.visi-misi-items {
+  width: 45%;
+  background-color: var(--white);
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: var(--bluedark);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+.visi-misi-items h2 {
+  text-align: center;
+}
+.visi-misi-items p {
+  text-align: justify;
+  padding: 5px 20px;
+}
+.visi-misi-items li {
+  text-align: justify;
+  padding: 5px 20px;
+}
+
+/* Program */
+#program h1 {
+  color: var(--bluedark);
+  text-align: center;
+  margin-top: 40px;
+}
+.program-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 30px auto;
+}
+.program-tenaga-item {
   width: 30%;
   background-color: var(--green-muda);
   padding: 5px;
@@ -321,10 +358,10 @@ nav ul li a:hover {
   -o-border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
 }
-.visi-misi-tenaga-item h2 {
+.program-tenaga-item h2 {
   text-align: center;
 }
-.visi-misi-tenaga-item p {
+.program-tenaga-item p {
   text-align: justify;
   text-indent: 15px;
   padding: 5px 20px;
@@ -350,7 +387,10 @@ nav ul li a:hover {
   width: 40%;
   background-color: var(--white);
   padding: 5px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
   border-radius: 10px;
   color: var(--bluedark);
   -webkit-border-radius: 10px;
@@ -370,12 +410,12 @@ nav ul li a:hover {
 
 /* Alumni */
 #alumni h1 {
-  color: var(--white);
+  color: var(--bluedark);
   text-align: center;
   margin-top: 30px;
 }
 #alumni p {
-  color: var(--white);
+  color: var(--bluedark);
   text-align: center;
 }
 .alumni-item-dalam .list {
@@ -514,11 +554,12 @@ nav ul li a:hover {
   padding-bottom: 10px;
   padding-top: 1px;
 }
+
 .galeri-container .wrapper {
   width: 90%;
   height: 80vh;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-  margin: 10px auto;
+  margin: 40px auto;
   overflow: hidden;
 }
 .galeri-container .wrapper-holder {
@@ -605,22 +646,6 @@ nav ul li a:hover {
   background-image: url(../image/kegiatan-18.png);
   background-position: center;
 }
-/* .galeri-container .button-holder .button {
-  background-color: white;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  display: inline-block;
-  margin: 0.3rem;
-}
-.galeri-container .button-holder {
-  position: absolute;
-  left: 45%;
-  bottom: 0%;
-}
-.button:hover {
-  box-shadow: 0px 0px 7px 4px rgba(0, 255, 255, 0.6);
-} */
 
 @keyframes slider {
   0% {
@@ -734,7 +759,7 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 .youtube {
-  background-color: #c4302b;  
+  background-color: #c4302b;
 }
 .tiktok {
   background-color: #000;
@@ -796,8 +821,14 @@ nav ul li a:hover {
   #nav-container .nav-flex input:checked ~ nav {
     display: flex;
   }
-  .visi-misi-tenaga-item {
+  .program-tenaga-item {
     width: 40%;
+  }
+  .visi-misi-flex {
+    width: 100%;
+  }
+  .visi-misi-items {
+    width: 45%;
   }
   /* program */
   .tamu-item {
@@ -822,6 +853,15 @@ nav ul li a:hover {
   /* pendaftaran */
   .pendaftaran-item {
     width: 70%;
+  }
+}
+/* versi tablet */
+@media screen and (max-width: 815px) {
+  .visi-misi-flex {
+    width: 80%;
+  }
+  .visi-misi-items {
+    width: auto;
   }
 }
 /* versi tablet */
@@ -885,11 +925,14 @@ nav ul li a:hover {
     width: auto;
   }
 
-  /* visi-misi */
-  .visi-misi-flex {
+  /* program */
+  #program h1 {
+    margin: 10px;
+  }
+  .program-flex {
     flex-direction: column;
   }
-  .visi-misi-tenaga-item {
+  .program-tenaga-item {
     width: auto;
   }
   .tamu-flex {
@@ -939,11 +982,11 @@ nav ul li a:hover {
     width: auto;
   }
 
-  /* visi-misi */
-  .visi-misi-flex {
+  /* program */
+  .program-flex {
     flex-direction: column;
   }
-  .visi-misi-tenaga-item {
+  .program-tenaga-item {
     width: auto;
   }
   .tamu-flex {
